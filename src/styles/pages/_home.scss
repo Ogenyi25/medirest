@@ -1,0 +1,81 @@
+.home {
+    .home-container {
+        height: 100vh;
+        align-content: center;
+        background: linear-gradient(rgba(13, 94, 97, 0.9), rgba(13,94,97, 0.3)), url('../../asset/images/background.jpg');
+        border-radius: 0px 0px 0px 40%;
+        .home-data {
+            padding: 150px 85px;
+            width: 60%;
+            font-family: 'Poppins';
+            .home-title {
+                padding-top: 100px;
+                font-size: 35px;
+                font-weight: 700;
+                margin-bottom: 10px;
+                text-transform: capitalize;
+                color: #fff;
+                letter-spacing: 2px;
+                line-height: 45px;
+                span {
+                    color: rgb(18, 185, 68);
+                }
+            }
+            .home-description {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 300;
+                font-family: 'Poppins';
+                line-height: 25px;
+                padding-bottom: 30px;
+            }
+            .button {
+                background: #fff;
+                padding: 8px 15px;
+                border-radius: 25px;
+                text-decoration: none;
+                border: 1px solid rgb(18, 185, 68);
+                color: rgb(18, 185, 68);
+               
+            }
+        }
+    }
+    .welcome-section {
+        width: 100%;
+        margin-top: 250px;
+        align-content: center;
+        .welcome-note {
+            justify-content: center;
+            .welcome-img {
+                .image {
+                    border-radius: 10px;
+                    width: 400px;
+                    height: 250px;
+                }
+            }
+            .welcome-text {
+                .title {
+                    font-size: 30px;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                }
+                .description {
+                    width: 80%;
+                    text-align: justify;
+                }
+                ul {
+                    li {
+                        margin: 0px 20px;
+                        font-weight: 500;
+                        font-size: 14px;
+                        text-align: justify;
+                    }
+                }
+                .heartrate {
+                    height: 10px;
+                    margin-left: 0.2rem;
+                }
+            }
+        }
+    }
+}

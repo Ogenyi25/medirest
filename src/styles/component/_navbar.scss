@@ -1,0 +1,50 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+    padding: 10px 100px;
+    z-index: 10000;
+    background:transparent;
+    font-family: 'Poppins';
+    .logo {
+        position: relative;
+        font-weight: 700;
+        color: #000;
+        text-decoration: none;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: .4s;
+        span {
+            color: crimson;
+        }
+    }
+    .nav-list {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .nav-item {
+            position: relative;
+            list-style: none;
+            .nav-link {
+                position: relative;
+                margin: 0 15px;
+                text-decoration: none;
+                color: rgb(18, 185, 68);
+                letter-spacing: 2px;
+                font-weight: 500;
+                transition: .4s;
+            }
+        }
+    }
+}
+.navbar.active {
+    background: #fff;
+    transition: .5s;
+}

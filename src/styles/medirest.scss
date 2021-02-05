@@ -1,0 +1,12 @@
+//google fonts
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&family=Potta+One&display=swap');
+
+//styles for component files
+@import './component/navbar';
+
+//styles for the individual pages
+@import './pages/home';
+@import './pages/about';
+@import './pages/contact';
+@import './pages/services';
+@import './pages/teams';
