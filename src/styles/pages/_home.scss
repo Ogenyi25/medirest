@@ -77,5 +77,57 @@
                 }
             }
         }
+        .reason-section {
+            margin: 250px 0px 0px -15px;
+            align-content: center;
+            background: #fafafa;
+            width: 98.7vw;
+            
+            .reason {
+                justify-content: center;
+                .text {
+                    padding: 30px 0px;
+                    .text-title {
+                        font-size: 30px;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                    }
+                    .heartrate {
+                        height: 10px;
+                        margin-left: 0.2rem;
+                    }
+                    .divs {
+                        margin-top: 50px;
+                        .first {
+                            padding: 10px 10px;
+                            transition: .5s;
+                            .title {
+                                padding-bottom: 10px;
+                                font-size: 16px;
+                                font-weight: 700;
+                                text-transform: capitalize;
+                            }
+                            .description {
+                                padding-bottom: 40px;
+                            }
+                        }
+                        .first:hover {
+                            background: rgba(255, 255, 255, 0.774);
+                            border-radius: 10px;
+                            box-shadow: 2px 0px 10px rgba(13, 94, 97, 0.137);
+                            transform: translateY(-10%);
+                        }
+                    }
+                }
+                .image {
+                    padding: 30px 10px;
+                    .stethoscope {
+                        margin-top: 90px;
+                        width: 450px;
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
     }
 }
