@@ -131,3 +131,146 @@
         }
     }
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    .home {
+        .home-container {
+            height: 100vh;
+            align-content: center;
+            background: linear-gradient(rgba(13, 94, 97, 0.9), rgba(13,94,97, 0.3)), url('../../asset/images/background.jpg');
+            border-radius: 0px 0px 25% 25%;
+            .home-data {
+                padding: 100px 15px;
+                width: 100%;
+                font-family: 'Poppins';
+                .home-title {
+                    padding-top: 100px;
+                    font-size: 30px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                    text-transform: capitalize;
+                    color: #fff;
+                    line-height: 35px;
+                    span {
+                        color: rgb(18, 185, 68);
+                    }
+                }
+                .home-description {
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 300;
+                    font-family: 'Poppins';
+                    line-height: 20px;
+                    padding-bottom: 30px;
+                }
+                .button {
+                    background: #fff;
+                    padding: 8px 15px;
+                    border-radius: 25px;
+                    text-decoration: none;
+                    border: 1px solid rgb(18, 185, 68);
+                    color: rgb(18, 185, 68);
+                   
+                }
+            }
+        }
+        .welcome-section {
+            width: 100%;
+            margin-top: 150px;
+            align-content: center;
+            .welcome-note {
+                justify-content: center;
+                .welcome-img {
+                    margin-bottom: 20px;
+                    .image {
+                        border-radius: 10px;
+                        width: 100%;
+                        height: 250px;
+                    }
+                }
+                .welcome-text {
+                    .title {
+                        font-size: 30px;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                    }
+                    .description {
+                        width: 100%;
+                        text-align: justify;
+                    }
+                    ul {
+                        li {
+                            margin: 0px 20px;
+                            font-weight: 500;
+                            font-size: 14px;
+                            text-align: justify;
+                        }
+                    }
+                    .heartrate {
+                        height: 10px;
+                        margin-left: 0.2rem;
+                    }
+                }
+            }
+            .reason-section {
+                margin: 100px 0px 0px -15px;
+                align-content: center;
+                background: #fafafa;
+                width: 99.9vw;
+                
+                .reason {
+                    justify-content: center;
+                    .text {
+                        padding: 30px 10px;
+                        width: 90%;
+                        .text-title {
+                            font-size: 30px;
+                            font-weight: 700;
+                            text-transform: capitalize;
+                        }
+                        .heartrate {
+                            height: 10px;
+                            margin-left: 0.2rem;
+                        }
+                        .divs {
+                            margin-top: 50px;
+                            .first {
+                                padding: 10px 10px;
+                                transition: .5s;
+                                .title {
+                                    padding-bottom: 10px;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    text-transform: capitalize;
+                                }
+                                .description {
+                                    padding-bottom: 40px;
+                                }
+                            }
+                            .first:hover {
+                                background: rgba(255, 255, 255, 0.774);
+                                border-radius: 10px;
+                                box-shadow: 2px 0px 10px rgba(13, 94, 97, 0.137);
+                                transform: translateY(-10%);
+                            }
+                        }
+                    }
+                    .image {
+                        padding: 5px;
+                        text-align: center;
+                        width: 100%;
+                        .stethoscope {
+                            margin-top: -40px;
+                            width: 350px;
+                            margin-left: -100px;
+                            
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
