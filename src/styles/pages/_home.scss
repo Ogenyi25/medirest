@@ -3,7 +3,7 @@
         height: 100vh;
         align-content: center;
         background: linear-gradient(rgba(13, 94, 97, 0.9), rgba(13,94,97, 0.3)), url('../../asset/images/background.jpg');
-        border-radius: 0px 0px 0px 40%;
+        border-radius: 0px 0px 0px 20%;
         .home-data {
             padding: 150px 85px;
             width: 60%;
@@ -130,6 +130,51 @@
             }
         }
     }
+
+    .our-teams-section {
+        // width: 100%;
+        // margin: 0;
+        // padding: 0;
+        .our-teams-title {
+            text-align: center;
+            font-size: 30px;
+            align-content: center;
+            padding-top: 100px;
+            text-transform: capitalize;
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+        .our-teams {
+            width: 100%;
+            margin-bottom: 20px;
+            .team {
+                width: 33%;
+                margin-right: auto;
+                margin-left: auto;
+                box-shadow: 2px 0 5px rgba(7, 7, 7, 0.137);
+                border-radius: 10px;
+                margin-bottom: 20px;
+                .stethoscope {
+                    width: 300px;
+                    padding: 50px;
+                }
+                .team-details {
+                    text-align: center;
+                    .team-name {
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: green;
+                        text-transform: capitalize;
+                    }
+                    .team-post {
+                        padding-bottom: 20px;
+                        text-transform: capitalize;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -141,6 +186,7 @@
             align-content: center;
             background: linear-gradient(rgba(13, 94, 97, 0.9), rgba(13,94,97, 0.3)), url('../../asset/images/background.jpg');
             border-radius: 0px 0px 25% 25%;
+            width: 100%;
             .home-data {
                 padding: 100px 15px;
                 width: 100%;
@@ -267,6 +313,49 @@
                             margin-left: -100px;
                             
                            
+                        }
+                    }
+                }
+            }
+        }
+        .our-teams-section {
+            // width: 100%;
+            // margin: 0;
+            // padding: 0;
+            .our-teams-title {
+                text-align: center;
+                font-size: 30px;
+                align-content: center;
+                padding-top: 100px;
+                text-transform: capitalize;
+                font-weight: 700;
+                margin-bottom: 50px;
+            }
+            .our-teams {
+                width: 100%;
+                margin-bottom: 20px;
+                margin: auto;
+                .team {
+                    width: 100%;
+                    box-shadow: 2px 0 5px rgba(7, 7, 7, 0.137);
+                    border-radius: 10px;
+                    margin-bottom: 20px;
+                    .stethoscope {
+                        width: 300px;
+                        padding: 50px;
+                    }
+                    .team-details {
+                        text-align: center;
+                        .team-name {
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: green;
+                            text-transform: capitalize;
+                        }
+                        .team-post {
+                            padding-bottom: 20px;
+                            text-transform: capitalize;
+                            font-weight: 400;
                         }
                     }
                 }

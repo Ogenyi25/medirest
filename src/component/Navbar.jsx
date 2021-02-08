@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -20,7 +20,7 @@ const Navbar = () => {
                 <Link to='/' className="logo">Medi<span>Rest</span></Link>
                 <ul className="nav-list">
                     <li className="nav-item"><Link to='/' className="nav-link">Home</Link></li>
-                    <li className="nav-item"><Link to='/about' className="nav-link">About</Link></li>
+                    <li className="nav-item"><Link to="/about" className="nav-link">About</Link></li>
                     <li className="nav-item"><Link to='/services' className="nav-link">Services</Link></li>
                     <li className="nav-item"><Link to='/work' className="nav-link">Work</Link></li>
                     <li className="nav-item"><Link to='/contact' className="nav-link">Contact</Link></li>

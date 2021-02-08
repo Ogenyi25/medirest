@@ -22,11 +22,11 @@ const Home = () => {
             <div className="welcome-section container-fluid">
                 <div className="welcome-note row">
                     <div className="welcome-img col-md-4">
-                        <img src={photo} alt="counselling image" className="image" />
+                        <img src={photo} alt="counselling" className="image" />
                     </div>
                     <div className="welcome-text col-md-6">
                         <div className="title">Who we are</div>
-                        <img src={heartrate} alt="counselling image" className="heartrate" />
+                        <img src={heartrate} alt="counselling" className="heartrate" />
                         <div className="description">
                             At MediRest we promote, preserve, and restore individual and family health by
                             providing expert medical and surgical care within an innovative and dignified environment.
@@ -43,13 +43,13 @@ const Home = () => {
                     <div className="reason row">
                         <div className="text col-md-6">
                             <div className="text-title">why choose us</div>
-                            <img src={heartrate} alt="heartrate image" className="heartrate" />
+                            <img src={heartrate} alt="heartrate" className="heartrate" />
                             <div className="divs row">
                                 <div className="first col-md-6">
                                     <div className="title">qualified doctors</div>
                                     <div className="description">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non rerum quia doloribus 
-                                        corporis ad minus, dolore, ullam, officiis commodi odio sunt odit? Aliquid nesciunt 
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non rerum quia doloribus
+                                        corporis ad minus, dolore, ullam, officiis commodi odio sunt odit? Aliquid nesciunt
                                         natus optio atque, alias itaque possimus.
                                     </div>
                                 </div>
@@ -57,8 +57,8 @@ const Home = () => {
                                 <div className="first col-md-6">
                                     <div className="title">emergency care</div>
                                     <div className="description">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non rerum quia doloribus 
-                                        corporis ad minus, dolore, ullam, officiis commodi odio sunt odit? Aliquid nesciunt 
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non rerum quia doloribus
+                                        corporis ad minus, dolore, ullam, officiis commodi odio sunt odit? Aliquid nesciunt
                                         natus optio atque, alias itaque possimus.
                                     </div>
                                 </div>
@@ -66,8 +66,8 @@ const Home = () => {
                                 <div className="first col-md-6">
                                     <div className="title">24 hour services</div>
                                     <div className="description">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non rerum quia doloribus 
-                                        corporis ad minus, dolore, ullam, officiis commodi odio sunt odit? Aliquid nesciunt 
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non rerum quia doloribus
+                                        corporis ad minus, dolore, ullam, officiis commodi odio sunt odit? Aliquid nesciunt
                                         natus optio atque, alias itaque possimus.
                                     </div>
                                 </div>
@@ -75,15 +75,69 @@ const Home = () => {
                                 <div className="first col-md-6">
                                     <div className="title">operation theater</div>
                                     <div className="description">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non rerum quia doloribus 
-                                        corporis ad minus, dolore, ullam, officiis commodi odio sunt odit? Aliquid nesciunt 
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non rerum quia doloribus
+                                        corporis ad minus, dolore, ullam, officiis commodi odio sunt odit? Aliquid nesciunt
                                         natus optio atque, alias itaque possimus.
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="image col-md-4">
-                            <img src={stethoscope} alt="" className="stethoscope"/>
+                            <img src={stethoscope} alt="" className="stethoscope" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="our-teams-section">
+                <div className="our-teams-title">our teams</div>
+                <div className="our-teams row container-fluid">
+                    <div className="team col-md-3">
+                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <div className="team-details">
+                            <div className="team-name">dr. teresa hakim</div>
+                            <div className="team-post">pathologist</div>
+                        </div>
+                    </div>
+
+                    <div className="team col-md-3">
+                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <div className="team-details">
+                            <div className="team-name">dr. teresa hakim</div>
+                            <div className="team-post">pathologist</div>
+                        </div>
+                    </div>
+
+                    <div className="team col-md-3">
+                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <div className="team-details">
+                            <div className="team-name">dr. teresa hakim</div>
+                            <div className="team-post">pathologist</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="our-teams row container-fluid">
+                    <div className="team col-md-3">
+                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <div className="team-details">
+                            <div className="team-name">dr. teresa hakim</div>
+                            <div className="team-post">pathologist</div>
+                        </div>
+                    </div>
+
+                    <div className="team col-md-3">
+                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <div className="team-details">
+                            <div className="team-name">dr. teresa hakim</div>
+                            <div className="team-post">pathologist</div>
+                        </div>
+                    </div>
+
+                    <div className="team col-md-3">
+                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <div className="team-details">
+                            <div className="team-name">dr. teresa hakim</div>
+                            <div className="team-post">pathologist</div>
                         </div>
                     </div>
                 </div>
