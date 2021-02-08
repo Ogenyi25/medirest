@@ -36,10 +36,13 @@
                 position: relative;
                 margin: 0 15px;
                 text-decoration: none;
-                color: rgb(18, 185, 68);
+                color: crimson;
                 letter-spacing: 2px;
                 font-weight: 500;
                 transition: .4s;
+            }
+            .nav-link:hover {
+                color: rgb(18, 185, 68);
             }
         }
     }
@@ -89,7 +92,7 @@
                     position: relative;
                     margin: 0 5px;
                     text-decoration: none;
-                    color: rgb(18, 185, 68);
+                    color:crimson;
                     letter-spacing: 2px;
                     font-weight: 500;
                     transition: .4s;

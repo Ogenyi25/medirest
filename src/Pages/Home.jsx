@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import photo from '../asset/images/bg.jpg';
-import heartrate from '../asset/images/heartrate.png';
+import heartrate from '../asset/images/heartbeat.png';
 import stethoscope from '../asset/images/doc.png';
 
 
@@ -19,6 +19,7 @@ const Home = () => {
                     <Link to='/' className="button">View More</Link>
                 </div>
             </div>
+            {/* welcome section */}
             <div className="welcome-section container-fluid">
                 <div className="welcome-note row">
                     <div className="welcome-img col-md-4">
@@ -39,6 +40,9 @@ const Home = () => {
                         </ul>
                     </div>
                 </div>
+
+                {/* why choose us section */}
+
                 <div className="reason-section container-fluid">
                     <div className="reason row">
                         <div className="text col-md-6">
@@ -88,8 +92,12 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            {/* our teams section */}
+
             <div className="our-teams-section">
                 <div className="our-teams-title">our teams</div>
+                <div className="team-subtitle">who we work with</div>
                 <div className="our-teams row container-fluid">
                     <div className="team col-md-3">
                         <img src={stethoscope} alt="" className="stethoscope" />
@@ -142,6 +150,28 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            {/* contact us section */}
+
+            <div className="contact-section container-fluid" id="contact">
+            <div className="contact-container row">
+                <div className="contact-data col-md-8">
+                    <span className="section-subtitle contact-initial">Let's talk</span>
+                    <div className="section-title contact-initial">Contact us</div>
+                    <p className="contact-description">If you want to book an appointment with any of our special, <br/> contact us and 
+                        consider it done, with our 24/7 service.
+                    </p>
+                    <div className="address"><span>Address: </span>No.9 Madueke street, Asokoro Extention, Abuja.</div>
+                    <div className="address"><span>Phone Number: </span>08036000000, 07034588888.</div>
+                    <div className="address"><span>Email: </span>medirestofficial@gmail.com.</div>
+                </div>
+
+                <div className="contact-button col-md-3">
+                    <Link to='/' className="button">Contact us now</Link>
+                </div>
+            </div>
+
+        </div>
         </div>
     )
 }
