@@ -167,12 +167,16 @@
                 border-radius: 10px;
                 margin-bottom: 20px;
                 transition: .5s;
+                text-align: center;
                 .stethoscope {
-                    width: 300px;
-                    padding: 50px;
+                    width: 330px;
+                    margin-left: -15px;
+                    border-radius: 10px 10px 0 0;
+                    
                 }
                 .team-details {
                     text-align: center;
+                    padding-top: 10px;
                     .team-name {
                         font-size: 17px;
                         font-weight: 700;
@@ -192,6 +196,8 @@
             }
         }
     }
+
+    
     .contact-section {
         margin-top: 150px;
         font-family: 'Poppins';
@@ -389,16 +395,20 @@
             }
         }
         .our-teams-section {
-            // width: 100%;
-            // margin: 0;
-            // padding: 0;
             .our-teams-title {
                 text-align: center;
                 font-size: 30px;
                 align-content: center;
-                padding-top: 100px;
+                padding-top: 50px;
                 text-transform: capitalize;
                 font-weight: 700;
+            }
+            .team-subtitle {
+                font-size: 15px;
+                font-weight: 400;
+                color: crimson;
+                text-align: center;
+                text-transform: capitalize;
                 margin-bottom: 50px;
             }
             .our-teams {
@@ -411,8 +421,9 @@
                     border-radius: 10px;
                     margin-bottom: 20px;
                     .stethoscope {
-                        width: 300px;
-                        padding: 50px;
+                        width: 317px;
+                        margin-left: -15px;
+                        border-radius: 10px 10px 0 0;
                     }
                     .team-details {
                         text-align: center;
@@ -427,6 +438,58 @@
                             text-transform: capitalize;
                             font-weight: 400;
                         }
+                    }
+                }
+            }
+        }
+
+        .contact-section {
+            margin-top: 150px;
+            font-family: 'Poppins';
+            .contact-container {
+                margin-left: -15px;
+                width: 100%;
+                .contact-data {
+                    justify-content: center;
+                    .section-subtitle {
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: crimson;
+                    }
+                    .section-title {
+                        font-size: 35px;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                        padding-bottom: 30px;
+                    }
+                    .contact-description {
+                        font-weight: 400;
+                    }
+                    .address {
+                        padding: 5px 20px 3px 0;
+                        font-family: 'Poppins';
+                        span {
+                            font-weight: 600;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+                .contact-button {
+                    margin-top: 30px;
+                    .button {
+                        padding: 10px 10px;
+                        text-align: center;
+                        background: crimson;
+                        border-radius: 5px;
+                        text-decoration: none;
+                        color: #fff;
+                        transition: .5s;
+                    }
+                    .button:hover {
+                        background: transparent;
+                        border: solid 2px crimson;
+                        color: crimson;
+                        transition: .5s;
                     }
                 }
             }

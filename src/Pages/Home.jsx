@@ -3,6 +3,13 @@ import { Link } from 'react-router-dom';
 import photo from '../asset/images/bg.jpg';
 import heartrate from '../asset/images/heartbeat.png';
 import stethoscope from '../asset/images/doc.png';
+import doc from '../asset/images/doc.jpg';
+import doc2 from '../asset/images/doc2.jpg';
+import doc3 from '../asset/images/doc3.jpg';
+import doc4 from '../asset/images/doc4.png';
+import doc5 from '../asset/images/doc5.jpg';
+import doc6 from '../asset/images/doc6.jpg';
+
 
 
 
@@ -96,11 +103,11 @@ const Home = () => {
             {/* our teams section */}
 
             <div className="our-teams-section">
-                <div className="our-teams-title">our teams</div>
-                <div className="team-subtitle">who we work with</div>
+                <div className="our-teams-title">our team</div>
+                <div className="team-subtitle">a group of dedicated staff</div>
                 <div className="our-teams row container-fluid">
                     <div className="team col-md-3">
-                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <img src={doc} alt="" className="stethoscope" />
                         <div className="team-details">
                             <div className="team-name">dr. teresa hakim</div>
                             <div className="team-post">pathologist</div>
@@ -108,7 +115,7 @@ const Home = () => {
                     </div>
 
                     <div className="team col-md-3">
-                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <img src={doc2} alt="" className="stethoscope" />
                         <div className="team-details">
                             <div className="team-name">dr. teresa hakim</div>
                             <div className="team-post">pathologist</div>
@@ -116,7 +123,7 @@ const Home = () => {
                     </div>
 
                     <div className="team col-md-3">
-                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <img src={doc3} alt="" className="stethoscope" />
                         <div className="team-details">
                             <div className="team-name">dr. teresa hakim</div>
                             <div className="team-post">pathologist</div>
@@ -126,7 +133,7 @@ const Home = () => {
 
                 <div className="our-teams row container-fluid">
                     <div className="team col-md-3">
-                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <img src={doc4} alt="" className="stethoscope" />
                         <div className="team-details">
                             <div className="team-name">dr. teresa hakim</div>
                             <div className="team-post">pathologist</div>
@@ -134,7 +141,7 @@ const Home = () => {
                     </div>
 
                     <div className="team col-md-3">
-                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <img src={doc5} alt="" className="stethoscope" />
                         <div className="team-details">
                             <div className="team-name">dr. teresa hakim</div>
                             <div className="team-post">pathologist</div>
@@ -142,7 +149,7 @@ const Home = () => {
                     </div>
 
                     <div className="team col-md-3">
-                        <img src={stethoscope} alt="" className="stethoscope" />
+                        <img src={doc6} alt="" className="stethoscope" />
                         <div className="team-details">
                             <div className="team-name">dr. teresa hakim</div>
                             <div className="team-post">pathologist</div>
@@ -154,24 +161,29 @@ const Home = () => {
             {/* contact us section */}
 
             <div className="contact-section container-fluid" id="contact">
-            <div className="contact-container row">
-                <div className="contact-data col-md-8">
-                    <span className="section-subtitle contact-initial">Let's talk</span>
-                    <div className="section-title contact-initial">Contact us</div>
-                    <p className="contact-description">If you want to book an appointment with any of our special, <br/> contact us and 
-                        consider it done, with our 24/7 service.
-                    </p>
-                    <div className="address"><span>Address: </span>No.9 Madueke street, Asokoro Extention, Abuja.</div>
-                    <div className="address"><span>Phone Number: </span>08036000000, 07034588888.</div>
-                    <div className="address"><span>Email: </span>medirestofficial@gmail.com.</div>
-                </div>
+                <div className="contact-container row">
+                    <div className="contact-data col-md-8">
+                        <span className="section-subtitle contact-initial">Let's talk</span>
+                        <div className="section-title contact-initial">Contact us</div>
+                        <p className="contact-description">If you want to book an appointment with any of our special, <br /> contact us and
+                            consider it done, with our 24/7 service.
+                        </p>
+                        <div className="address"><span>Address: </span>No.9 Madueke street, Asokoro Extention, Abuja.</div>
+                        <div className="address"><span>Phone Number: </span>08036000000, 07034588888.</div>
+                        <div className="address"><span>Email: </span>medirestofficial@gmail.com.</div>
+                    </div>
 
-                <div className="contact-button col-md-3">
-                    <Link to='/' className="button">Contact us now</Link>
+                    <div className="contact-button col-md-3">
+                        <Link to='/' className="button">Contact us now</Link>
+                    </div>
                 </div>
             </div>
 
-        </div>
+            {/* our clients section */}
+
+            <div className="our-clients-section">
+
+            </div>
         </div>
     )
 }
