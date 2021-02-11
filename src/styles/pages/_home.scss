@@ -59,6 +59,7 @@
                     font-size: 30px;
                     font-weight: 700;
                     text-transform: capitalize;
+                    color: darkgray;
                 }
                 .description {
                     width: 80%;
@@ -92,6 +93,7 @@
                         font-size: 25px;
                         font-weight: 700;
                         text-transform: capitalize;
+                        color: darkgray;
                     }
                     .heartrate {
                         height: 10px;
@@ -155,6 +157,7 @@
             text-transform: capitalize;
             font-weight: 700;
             padding-bottom: 5px;
+            color: darkgray;
         }
         .our-teams {
             width: 100%;
@@ -197,6 +200,28 @@
         }
     }
 
+    // styles for our clients section
+    .our-clients-section {
+        margin-top: 150px;
+        .our-clients-title {
+            text-align: center;
+            font-size: 30px;
+            align-content: center;
+            text-transform: capitalize;
+            font-weight: 700;
+            padding-bottom: 5px;
+            color: darkgray;
+        }
+        .our-clients-subtitle {
+            font-size: 15px;
+            font-weight: 400;
+            color: crimson;
+            text-align: center;
+            text-transform: capitalize;
+            margin-bottom: 50px;
+        }
+    }
+
     
     .contact-section {
         margin-top: 150px;
@@ -217,6 +242,7 @@
                     font-weight: 700;
                     text-transform: capitalize;
                     padding-bottom: 30px;
+                    color: darkgray;
                 }
                 .contact-description {
                     font-weight: 400;

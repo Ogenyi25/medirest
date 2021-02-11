@@ -158,6 +158,16 @@ const Home = () => {
                 </div>
             </div>
 
+            {/* our clients section */}
+
+            <div className="our-clients-section">
+                <div className="our-clients-title">our clients</div>
+                <div className="our-clients-subtitle">who we provide service to</div>
+                <div className="clients-carousel">
+                    
+                </div>
+            </div>
+
             {/* contact us section */}
 
             <div className="contact-section container-fluid" id="contact">
@@ -179,11 +189,7 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* our clients section */}
-
-            <div className="our-clients-section">
-
-            </div>
+            
         </div>
     )
 }
