@@ -8,13 +8,13 @@ import Contact from './Pages/Contact';
 import Navbar from './component/Navbar';
 
 
-class AppRouter extends Component {
+export class AppRouter extends Component {
     render() {
         return (
             <BrowserRouter>
                 <Navbar />
                 <Switch>
-                    <Route path="/" component={Home}  />
+                    <Route path="/" component={Home} exact />
                     <Route path="/about" component={About} />
                     <Route path="/services" component={Services} />
                     <Route path="/teams" component={Teams} />

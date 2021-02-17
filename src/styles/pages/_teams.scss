@@ -1,0 +1,16 @@
+.teams-page {
+    .teams-section {
+        height: 50vh;
+        align-content: center;
+        background: linear-gradient(rgba(6, 53, 54, 0.9), rgba(25, 154, 158, 0.3)), url('../../asset/images/background.jpg');
+        background-size: cover;
+        .teams-title {
+            padding: 150px 0px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 700;
+            text-transform: capitalize;
+            color: #fff;
+        }
+    }
+}
