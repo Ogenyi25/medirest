@@ -62,3 +62,75 @@
         }
     }
 }
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .service-page {
+        font-family: 'Poppins', sans-serif;
+        .service-section {
+            height: 40vh;
+            align-content: center;
+            background: linear-gradient(rgba(6, 53, 54, 0.9), rgba(25, 154, 158, 0.3)), url('../../asset/images/background.jpg');
+            background-size: cover;
+            .service-title {
+                padding: 150px 0px;
+                text-align: center;
+                font-size: 40px;
+                font-weight: 700;
+                text-transform: capitalize;
+                color: #fff;
+            }
+        }
+        .service-details-section {
+            margin-top: 100px;
+            text-align: center;
+            .service-details-title {
+                font-size: 30px;
+                color: rgba(6, 53, 54, 0.9);
+                text-transform: capitalize;
+                font-weight: 700;
+            }
+            .heartrate {
+                height: 10px;
+                width: 150px;
+                margin-bottom: 100px;
+            }
+            .services-provided {
+                margin-top: 0px;
+                margin-right: auto;
+                margin-left: auto;
+                .services {
+                    box-shadow: 1px 0 5px rgba(117, 255, 89, 0.082);
+                    transition: .5s;
+                    padding: 20px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    margin-bottom: 40px;
+                    .service-title {
+                        font-size: 20px;
+                        font-weight: 700;
+                        padding-bottom: 20px;
+                        color: rgb(0, 107, 32);
+                    }
+                    .service-details {
+                        padding-bottom: 20px;
+                        font-size: 14px;
+                    }
+                    .service-btn {
+                        text-decoration: none;
+                        color: rgb(0, 107, 32);
+                        font-size: 14px;
+                        font-weight: 600;
+                        transition: .5s;
+                    }
+                }
+                .services:hover {
+                    cursor: pointer;
+                    transform: translateY(-25px);
+                }
+            }
+        }
+    }
+}
