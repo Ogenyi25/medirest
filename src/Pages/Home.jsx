@@ -14,6 +14,7 @@ import docicon from '../asset/images/doc-icon.png';
 import emergency from '../asset/images/emergency.png';
 import theatre from '../asset/images/theatre.png';
 import time from '../asset/images/time.png';
+import ClientCarousel from '../component/ClientCarousel';
 
 
 
@@ -173,7 +174,7 @@ const Home = () => {
                 <div className="our-clients-title">our clients</div>
                 <div className="our-clients-subtitle">who we provide service to</div>
                 <div className="clients-carousel container-fluid">
-                    
+                    <ClientCarousel />
                 </div>
             </div>
 
