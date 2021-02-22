@@ -6,6 +6,7 @@ import Services from './Pages/Services';
 import Teams from './Pages/Teams';
 import Contact from './Pages/Contact';
 import Navbar from './component/Navbar';
+import Footer from './component/Footer';
 
 
 export class AppRouter extends Component {
@@ -20,6 +21,7 @@ export class AppRouter extends Component {
                     <Route path="/teams" component={Teams} />
                     <Route path="/contact" component={Contact} />
                 </Switch>
+                <Footer />
             </BrowserRouter>
         );
     }

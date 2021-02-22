@@ -11,6 +11,9 @@ import reportWebVitals from './reportWebVitals';
 //import styles
 import './styles/medirest.scss'
 
+// import your fontawesome library
+import './fontawesome';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

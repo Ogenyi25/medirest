@@ -15,6 +15,7 @@ import emergency from '../asset/images/emergency.png';
 import theatre from '../asset/images/theatre.png';
 import time from '../asset/images/time.png';
 import ClientCarousel from '../component/ClientCarousel';
+// import Footer from '../component/Footer';
 
 
 
@@ -194,12 +195,10 @@ const Home = () => {
                     </div>
 
                     <div className="contact-button col-md-3">
-                        <Link to='/' className="button">Contact us now</Link>
+                        <Link to='/' className="button">Schedule an Appointment</Link>
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }
